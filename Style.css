@@ -531,6 +531,22 @@ img {
     width: max-content;
 }
 
+.about-info i span{
+    position: relative;
+    right: 6.5vh;
+}
+
+#anime{
+    position: relative;
+    color: var(--title-color);
+    margin-bottom: 1.5rem;
+    width: fit-content;
+}
+
+.typed-cursor{
+    color: var(--title-color);
+}
+
 .about-description::after{
     content: '';
     width: 20px;
@@ -988,6 +1004,11 @@ img {
         margin-bottom: 0;
     }
 
+    .about-info i span{
+        position: relative;
+        left: 1vh;
+    }
+
     .about-description::after{
         left: -1.5rem;
     }
@@ -1021,6 +1042,11 @@ img {
         display: grid;
         left:-3rem;
         margin-bottom: 0;
+    }
+
+    .about-info i span{
+        position: relative;
+        right: 7.5vh;
     }
 
     .skills-container{
@@ -1347,7 +1373,15 @@ img {
 
     .about-description{
         font-size: var(--h2-font-size);
-        margin-bottom: 2rem;
+    }
+
+    #anime{
+        font-size: var(--h2-font-size);
+    }
+
+    .about-info i span{
+        position: relative;
+        right: 7vh;
     }
 
     .about-description::after{
